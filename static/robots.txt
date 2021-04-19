@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://muditjuneja.com/sitemap.xml

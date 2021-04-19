@@ -1,0 +1,16 @@
+Hi.
+
+I'm Mudit - currently working as "Senior Software Engineer" at Bain & Company, Gurgaon, India. I have 7 years of experience (5y official) in building scalable web applications in various stacks.
+
+My skills include :
+1. Idea Prototyping
+2. Stakeholder Management
+3. Process Management
+4. Tech Solutioning and Workflow Development
+5. Cloud Architecture and Scalability via Azure App Service, Amazon ECS
+6. Front-end/Client Development via React, Angular, etc
+7. Back-end/Server Development via Node.js, Python, C#
+8. Database Design in MySQL, Mongo, MSSQL
+9. DevOps via Jenkins, Azure CI/CD, Amazon CodeBuild/CodePipeline
+10. Agile based development
+ 
