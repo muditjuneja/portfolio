@@ -1,7 +1,7 @@
 // import { randomNumber } from '../utils';
 import { gsap } from 'gsap';
 
-const DOM = {
+let DOM = {
     enterCtrl: typeof document !== `undefined` ? document.querySelector('.enter') : null,
     enterBackground: typeof document !== `undefined` ? document.querySelector('.enter__bg') : null
 };
@@ -15,9 +15,18 @@ export class Intro {
         // total
         this.circleTextTotal = this.DOM.circleText.length;
 
-        this.setup();
+        // this.setup();
+
     }
     setup() {
+
+
+        DOM = {
+            enterCtrl: typeof document !== `undefined` ? document.querySelector('.enter') : null,
+            enterBackground: typeof document !== `undefined` ? document.querySelector('.enter__bg') : null
+        };
+
+
         // need to set the transform origin in the center
         gsap.set(this.DOM.circleText, { transformOrigin: '50% 50%' });
 
@@ -67,7 +76,7 @@ export class Intro {
         DOM.enterCtrl.addEventListener('mouseenter', this.enterMouseEnterEv);
         DOM.enterCtrl.addEventListener('mouseleave', this.enterMouseLeaveEv);
 
-        
+    
     }
     start() {
         this.startTL = gsap.timeline()

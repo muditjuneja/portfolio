@@ -17,9 +17,7 @@ export default function Enter() {
 
     useEffect(() => {
         if (intro) {
-            // start intro
-            // document.body.classList.remove('loading');
-            // document.body.classList.add('js');
+            intro.setup();
             intro.start();
         }
     }, [intro])
@@ -50,7 +48,7 @@ export default function Enter() {
                         </text>
                     </svg>
                     <div>
-                        <Link to="/">
+                        <Link to="/about">
                             <button className="enter">
                                 <div className="enter__bg"></div>
                                 <span className="enter__text">Enter</span>
