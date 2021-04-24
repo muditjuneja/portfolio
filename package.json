@@ -10,7 +10,8 @@
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
+    "start": "npm run build:landing && gatsby develop",
+    "build:landing": "cd index && npm i && npm run build && cp -r dist/ ../static/landing",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -26,6 +27,7 @@
     "gatsby-plugin-sass": "^4.3.0",
     "gatsby-plugin-sitemap": "^2.5.1",
     "gatsby-plugin-svg-sprite": "^2.0.1",
+    "gatsby-plugin-vercel": "^1.0.3",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
     "gsap": "^3.6.1",
