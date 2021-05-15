@@ -1,0 +1,25 @@
+---
+title: Contact
+slug: "/contact"
+---
+
+import * as React from "react";
+import { useState, useRef } from "react";
+import { ReactTypeformEmbed } from "react-typeform-embed";
+
+export const Form = () => {
+  let inputRef=null;
+  return (
+    <ReactTypeformEmbed
+      popup={true}
+      mode="drawer_left"
+      autoOpen={true}
+      style={{ position: "relative" }}
+      buttonText="Go!"
+      url="https://form.typeform.com/to/b27czMuy"
+      ref={node => { inputRef = node; }}
+    ></ReactTypeformEmbed>
+  );
+};
+
+Please leave a message <a onClick="">here</a>. I will get in touch with you. <Form />
