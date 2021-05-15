@@ -45,8 +45,8 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Nutshell`,
+            slug: `/nutshell`,
           },
           {
             title: `About`,
@@ -57,10 +57,13 @@ module.exports = {
             slug: `/resume`,
           },
           {
+            title: `Blog`,
+            slug: `/blog`,
+          },
+          {
             title: `Contact`,
             slug: `/contact`,
-          },
-
+          }
         ],
         externalLinks: [
           {
