@@ -266,11 +266,11 @@ a:focus {
 }
 
 .pos-5 {
-	grid-area: 17 / 34 / 32 / 38;
+	grid-area: 18 / 34 / 33 / 39;
 }
 
 .pos-6 {
-	grid-area: 21 / 44 / 27 / 47;
+	grid-area: 24 / 42 / 31 / 46;
 }
 
 .pos-7 {
@@ -298,7 +298,7 @@ a:focus {
 }
 
 .pos-13 {
-	grid-area: 7 / 15 / 15 / 19;
+	grid-area: 7 / 15 / 14 / 19;
 }
 
 .pos-14 {
@@ -306,7 +306,7 @@ a:focus {
 }
 
 .pos-15 {
-	grid-area: 10 / 40 / 21 / 43
+	grid-area: 10 / 42 / 21 / 46
 }
 
 .pos-16 {
@@ -318,7 +318,7 @@ a:focus {
 }
 
 .pos-18 {
-	grid-area: 27 / 8 / 35 / 12;
+	grid-area: 29 / 9 / 36 / 13;
 }
 
 /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
