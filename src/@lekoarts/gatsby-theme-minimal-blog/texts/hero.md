@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://lh5.googleusercontent.com/DxbX4Q8NLC50u7cKD8BeT8QtPToKURmSs4V51acVS_W9mVJLbviUz26UvVojvWUneyC9e_JZqVyZ-6awm0M_=w360-h286" alt="alternate text">
+    <img src="https://lh5.googleusercontent.com/DxbX4Q8NLC50u7cKD8BeT8QtPToKURmSs4V51acVS_W9mVJLbviUz26UvVojvWUneyC9e_JZqVyZ-6awm0M_=w360-h286" alt="alternate text" />
  </p>
  
 Hey there! Myself **Mudit Juneja**.
